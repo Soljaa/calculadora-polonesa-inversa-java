@@ -1,0 +1,5 @@
+package tree.calculator.visitor;
+
+public interface Element {
+    public void accept(Visitor visitor);
+}
